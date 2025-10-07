@@ -39,8 +39,8 @@
           "type": "python"
         }
       ]
-    }
-    ,{
+    },
+    {
       "id": "data-analysis",
       "title": "Data Analysis",
       "description": "Basics of data analysis: loading, exploring, and visualizing data in Python.",
@@ -56,6 +56,20 @@
           "name": "Sample Dataset",
           "file": "data.csv",
           "type": "csv"
+        }
+      ]
+    },
+    {
+      "id": "fastapi-rest-api",
+      "title": "Construindo APIs REST com FastAPI",
+      "description": "Aprenda a criar uma API REST simples utilizando o framework FastAPI em Python.",
+      "path": "assignments/fastapi-rest-api",
+      "dueDate": "2025-10-14",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
         }
       ]
     }
