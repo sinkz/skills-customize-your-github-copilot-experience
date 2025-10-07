@@ -1,19 +1,47 @@
+# 📘 Assignment: Hangman Game
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objetivo
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+Implement a classic Hangman game in Python to practice string manipulation, loops, conditionals, and user input. You will build a playable command-line game that reinforces core programming concepts.
 
-## � What You'll Build
+## 📝 Tarefas
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+### 🛠️ Game Logic and User Interaction
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+#### Description
 
-## ✅ Must Have's
+Create a Python script that runs the Hangman game in the terminal. The game should select a word, accept guesses, and display progress to the player.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+
+Completed program should:
+
+- Randomly select a word from a predefined list.
+- Display the word with underscores for unguessed letters (e.g. `_ a n g m a n`).
+- Accept single-letter guesses from the user and validate input (must be a new, alphabetical character).
+- Show the current progress and letters already guessed after each turn.
+- Track and display the number of incorrect guesses remaining.
+- End the game with a win message if the word is guessed, or a lose message revealing the word if attempts run out.
+
+Example output:
+
+```
+Word: _ a n g m a n
+Guesses left: 4
+Guessed letters: a, n, g, m
+Enter your next guess:
+```
+
+### 🛠️ Code Organization
+
+#### Description
+
+Structure your code using functions for key operations (e.g., word selection, input validation, updating game state).
+
+#### Requirements
+
+Completed program should:
+
+- Use at least three functions (e.g., `choose_word()`, `display_progress()`, `process_guess()`).
+- Include comments and docstrings for clarity.
+- Be easy to read and modify.
